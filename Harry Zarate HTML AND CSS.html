@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Unique Smile - Login</title>
+    <!-- Add Bootstrap CSS link -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background: linear-gradient(45deg, #5c3c92, #5a64a1);
+            color: #fff;
+        }
+
+        .login-container {
+            background-color: #4d4d4d;
+            border-radius: 12px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+            padding: 30px;
+            width: 350px;
+            text-align: center;
+        }
+
+        .login-container h2 {
+            margin-bottom: 20px;
+            color: #ffd700;
+        }
+
+        .login-form input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #5c3c92;
+            border-radius: 7px;
+            box-sizing: border-box;
+            padding-left: 40px;
+            color: #5c3c92;
+            background-color: #fff;
+        }
+
+        .login-form input::placeholder {
+            color: #5c3c92;
+        }
+
+        .login-form input:focus {
+            outline: none;
+            border-color: #ffd700;
+        }
+
+        .login-form .icon {
+            position: absolute;
+            margin: 18px;
+            color: #5c3c92;
+        }
+
+        .login-form button {
+            width: 100%;
+            padding: 12px;
+            background-color: #ffd700;
+            color: #5c3c92;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            position: relative;
+        }
+
+        .login-form button:hover {
+            background-color: #e6c800;
+        }
+
+        .forgot-password {
+            color: #c0c0c0;
+            text-decoration: none;
+            margin-top: 10px;
+            display: inline-block;
+        }
+
+        .forgot-password:hover {
+            text-decoration: underline;
+        }
+
+        .smile {
+            font-size: 2em;
+            color: #ffd700;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="login-container">
+        <h2>Your Unique Smile</h2>
+        <form class="login-form">
+            <i class="icon fas fa-user"></i>
+            <input type="text" placeholder="Your Special Username" name="username" required>
+            
+            <i class="icon fas fa-lock"></i>
+            <input type="password" placeholder="Enter Your Secret Password" name="password" required>
+            
+            <button type="submit">Unlock Your World</button>
+        </form>
+        <a href="#" class="forgot-password">Forgot Your Magic Spell?</a>
+        <div class="smile">&#128516;</div>
+    </div>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.8/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
